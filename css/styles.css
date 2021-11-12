@@ -31,6 +31,7 @@ body {
   letter-spacing: 0.03em;
 }
 
+p,
 h1,
 h2,
 h3 {
@@ -43,6 +44,12 @@ ul {
   list-style-type: none;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .container {
   width: 1200px;
   padding-right: 15px;
@@ -51,16 +58,16 @@ ul {
   margin-right: auto;
 }
 
-.section{
+.section {
   padding-top: 94px;
   padding-bottom: 94px;
-} 
+}
 
 /*header*/
 
 .header-container {
   display: flex;
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
   padding-top: 24px;
   padding-bottom: 25px;
 }
@@ -94,6 +101,12 @@ ul {
 /*nav*/
 .nav-container {
   display: flex;
+  align-items: center;
+}
+
+.site-nav{
+  display: flex;
+  align-items: center;
 }
 
 .site-nav-list:not(:last-child) {
@@ -107,6 +120,7 @@ ul {
   letter-spacing: 0.02em;
   color: var(--small-header-color);
   text-decoration: none;
+
 }
 
 .site-nav:hover {
@@ -120,6 +134,7 @@ ul {
 .site-nav.current {
   color: var(--accent-color);
 }
+
 
 .contacts-container {
   display: flex;
@@ -267,20 +282,22 @@ ul {
   background-color: var(--big-header-color);
 }
 
+.team-description {
+  padding: 30px 68px;
+}
+
 .team-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
   color: var(--small-header-color);
-  margin-top: 30px;
   margin-bottom: 10px;
 }
 .team-profession {
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
-  padding-bottom: 30px;
 }
 
 /* portfolio page */
@@ -292,8 +309,8 @@ ul {
   padding-bottom: 50px;
 }
 .filters-item:not(:last-child) {
-    margin-right: 8px;
-  }
+  margin-right: 8px;
+}
 
 .filters {
   font-family: Roboto, sans-serif;
@@ -359,10 +376,10 @@ ul {
   margin-bottom: 30px;
 }
 
-.sample-caption{
+.sample-caption {
   padding: 20px 24px;
-  border: 1px solid #EEEEEE;
-  }
+  border: 1px solid #eeeeee;
+}
 
 /*footer*/
 
