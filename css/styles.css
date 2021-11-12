@@ -65,9 +65,13 @@ img {
 
 /*header*/
 
+.header{
+  border-bottom: 1px solid #ececec;
+}
+
 .header-container {
   display: flex;
-  border-bottom: 1px solid #ececec;
+  
   padding-top: 24px;
   padding-bottom: 25px;
 }
@@ -166,13 +170,13 @@ img {
   background-color: var(
     --footer-bg-color
   ); /*Don't forget change it after lesson 7*/
-}
+  padding-top: 200px;
+  padding-bottom: 200px;}
+
 .hero {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
 }
 
 .hero-header {
@@ -240,6 +244,9 @@ img {
 }
 
 /*What we doing and team members*/
+.example{
+padding-bottom: 94px;
+}
 
 .example .title,
 .team .title {
@@ -255,7 +262,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   margin-right: -30px;
-  padding-bottom: 94px;
+  
 }
 .example-item {
   flex-basis: calc(100% / 3 - 30px);
@@ -283,7 +290,8 @@ img {
 }
 
 .team-description {
-  padding: 30px 68px;
+  padding: 30px 10px;
+  /* padding-bottom: 30px; */
 }
 
 .team-name {
@@ -306,7 +314,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .filters-item:not(:last-child) {
   margin-right: 8px;
@@ -369,6 +377,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   margin-right: -30px;
+  margin-bottom: -30px;
 }
 .sample-item {
   flex-basis: calc(100% / 3 - 30px);
